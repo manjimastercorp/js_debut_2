@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Lancer Chrome sur localhost",
-            "url": "http:///home/manjimaster/Bureau/coding_school_4/exo21_js_debut_2/index.html",
+            "url": "file:///home/manjimaster/Bureau/coding_school_4/exo21_js_debut_2/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

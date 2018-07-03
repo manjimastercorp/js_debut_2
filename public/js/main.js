@@ -1,29 +1,26 @@
-var guerrier =
-{
-    nom : "guts",
-    age : 30,
-    taille : 202,
-    attaque : 200,
-    vie : 1000,
-    arme : "epee"
+var guerrier = {
+    nom: "guts",
+    age: 30,
+    taille: 202,
+    attaque: 200,
+    vie: 1000,
+    arme: "epee",
 }
-var mage =
-{
-    nom : "merlin",
-    age : 90,
-    taille : 150,
-    attaque : 150,
-    vie : 500,
-    arme : "lampe magique"
+var mage = {
+    nom: "merlin",
+    age: 90,
+    taille: 150,
+    attaque: 150,
+    vie: 500,
+    arme: "lampe magique",
 }
-var paysan =
-{
-    nom : "sebastien",
-    age : 3,
-    taille : 175,
-    attaque : 100,
-    vie : 300,
-    arme : "fourche"
+var paysan = {
+    nom: "sebastien",
+    age: 3,
+    taille: 175,
+    attaque: 100,
+    vie: 300,
+    arme: "fourche",
 }
 var noms_concat = [guerrier.nom, mage.nom, paysan.nom];
 // var salutation = ['Bonjour', ' ', 'Alfred', ' ', '!'];
@@ -66,4 +63,3 @@ var vie_paysan_length = paysan.vie.length;
 var arme_paysan_length = paysan.arme.length;
 var arme_paysan_charAt = paysan.arme.charAt(4);
 var arme_paysan_substr = paysan.arme.substring(2, 4);
-
